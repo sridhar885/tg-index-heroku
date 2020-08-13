@@ -5,7 +5,7 @@
     </h1>
     <div class="mx-auto my-2 px-4 w-full">
         {% for chat in chats %}
-            <li class="w-full border border-black rounded bg-gray-500 hover:bg-blue-200 font-bold text-white p-4 my-3 shadow-md"> <a href="/{{chat.id}}" > {{chat.name}}</a> </li>
+            <li class="w-full border border-red-600 rounded bg-black hover:bg-black font-mono text-white p-4 my-3 shadow-md"> <a href="/{{chat.id}}" > {{chat.name}}</a> </li>
         {% endfor %}
     </div>
 
